@@ -2,7 +2,7 @@
 widget: slider
 headless: true
 active: true
-weight: 1
+weight: 10
 design:
   autoplay: true
   interval: 5000  # 5초
