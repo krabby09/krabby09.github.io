@@ -14,4 +14,7 @@ social:
 avatar:
   filename: "sans1.png"
 ---
-Hello! I’m Hyunseong. Here are my projects and interests.
+Hello! I’m Hyunseong Park.
+I’m interested in both AI modeling and backend development.
+I enjoy combining machine learning and web technologies to build personalized services for users,
+and my long-term goal is to grow into an AI engineer or data scientist.
