@@ -3,51 +3,61 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # 한국어 (기본 언어)
+# ko:
+#   languageCode: ko-kr
+#   title: "박현성 - 포트폴리오"
+#   weight: 1
+#   params:
+#     description: "박현성의 개인 포트폴리오 사이트입니다."
+#   menu:
+#     main:
+#       - name: "홈"
+#         url: /
+#         weight: 1
+#       - name: "자기소개"
+#         url: /about/
+#         weight: 2
+#       - name: "프로젝트"
+#         url: /projects/
+#         weight: 3
+#       - name: "이력서"
+#         url: /files/resume.pdf
+#         weight: 4
+#       - name: "연락하기"
+#         url: /contact/
+#         weight: 5
+
+# 영어 (보조 언어)
+# en:
+#   languageCode: en-us
+#   title: "PARKHYEONSEONG - Portfolio"
+#   weight: 2
+#   params:
+#     description: "Hyunseong Park’s personal portfolio website."
+#   menu:
+#     main:
+#       - name: "Home"
+#         url: /
+#         weight: 1
+#       - name: "About"
+#         url: /about/
+#         weight: 2
+#       - name: "Projects"
+#         url: /projects/
+#         weight: 3
+#       - name: "Resume"
+#         url: /files/resume.pdf
+#         weight: 4
+#       - name: "Contact"
+#         url: /contact/
+#         weight: 5
+
 ko:
   languageCode: ko-kr
   title: "박현성 - 포트폴리오"
   weight: 1
-  params:
-    description: "박현성의 개인 포트폴리오 사이트입니다."
-  menu:
-    main:
-      - name: "홈"
-        url: /
-        weight: 1
-      - name: "자기소개"
-        url: /about/
-        weight: 2
-      - name: "프로젝트"
-        url: /projects/
-        weight: 3
-      - name: "이력서"
-        url: /files/resume.pdf
-        weight: 4
-      - name: "연락하기"
-        url: /contact/
-        weight: 5
 
-# 영어 (보조 언어)
 en:
   languageCode: en-us
-  title: "PARKHYEONSEONG - Portfolio"
+  title: "Hyunseong Park - Portfolio"
   weight: 2
-  params:
-    description: "Hyunseong Park’s personal portfolio website."
-  menu:
-    main:
-      - name: "Home"
-        url: /
-        weight: 1
-      - name: "About"
-        url: /about/
-        weight: 2
-      - name: "Projects"
-        url: /projects/
-        weight: 3
-      - name: "Resume"
-        url: /files/resume.pdf
-        weight: 4
-      - name: "Contact"
-        url: /contact/
-        weight: 5
