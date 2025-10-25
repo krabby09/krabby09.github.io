@@ -6,6 +6,7 @@
 ko:
   languageCode: ko-kr
   title: "박현성 - 포트폴리오"
+  contentDir: content/ko
   weight: 1
   params:
     description: "박현성의 개인 포트폴리오 사이트입니다."
@@ -31,6 +32,7 @@ ko:
 en:
   languageCode: en-us
   title: "PARKHYEONSEONG - Portfolio"
+  contentDir: content/en
   weight: 2
   params:
     description: "Hyunseong Park’s personal portfolio website."
