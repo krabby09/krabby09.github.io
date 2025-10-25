@@ -1,38 +1,36 @@
 main:
-  - name: "홈"
-    url: /
+  - identifier: "home"
+    pageRef: "/"
     weight: 1
 
-  - name: "자기소개"
-    url: /about/
+  - identifier: "about"
+    pageRef: "about"
     weight: 2
 
-  # 부모 (identifier 필수)
-  - name: "프로젝트"
-    identifier: "project"
-    pageRef: "project"     # ← /content/<lang>/project/_index.md 를 가리킴 (없어도 동작)
+  - identifier: "project"
+    pageRef: "project"
     weight: 3
 
-  # 자식들 (pageRef 사용)
-  - name: "AI 캐릭터"
+  - identifier: "resume"
+    url: "/uploads/resume.pdf"
+    weight: 4
+
+  - identifier: "contact"
+    url: "/about/#contact"
+    weight: 5
+
+  # children (프로젝트 하위)
+  - identifier: "p-cartoon"
     pageRef: "project/cartoon"
     parent: "project"
     weight: 31
 
-  - name: "화장품 추천"
+  - identifier: "p-cosmetics"
     pageRef: "project/cosmetics"
     parent: "project"
     weight: 32
 
-  - name: "콘텐츠 추천"
+  - identifier: "p-reco"
     pageRef: "project/recommendation"
     parent: "project"
     weight: 33
-
-  - name: "이력서"
-    url: /uploads/resume.pdf
-    weight: 4
-
-  - name: "연락하기"
-    url: /about/#contact
-    weight: 5
