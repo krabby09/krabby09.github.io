@@ -1,51 +1,48 @@
-# 한국어 (기본 언어)
 ko:
   languageCode: ko-kr
   contentDir: content/ko
-  title: "박현성 - 포트폴리오"
+  title: 박현성 - 포트폴리오
   weight: 1
   params:
-    description: "박현성의 개인 포트폴리오 사이트입니다."
+    description: 박현성의 개인 포트폴리오 사이트입니다.
   menu:
     main:
-      - name: "홈"
-        url: /
-        weight: 1
-      - name: "자기소개"
-        url: /about/
-        weight: 2
-      - name: "프로젝트"
-        url: /project/
-        weight: 3
-      - name: "이력서"
-        url: /files/resume.pdf
-        weight: 4
-      - name: "연락하기"
-        url: /contact/
-        weight: 5
-
-# 영어 (보조 언어)
+    - name: 홈
+      url: /
+      weight: 1
+    - name: 자기소개
+      url: /about/
+      weight: 2
+    - name: 프로젝트
+      url: /project/
+      weight: 3
+    - name: 이력서
+      url: /uploads/resume.pdf
+      weight: 4
+    - name: 연락하기
+      url: /about/contact/
+      weight: 5
 en:
   languageCode: en-us
   contentDir: content/en
-  title: "Hyunseong Park - Portfolio"
+  title: Hyunseong Park - Portfolio
   weight: 2
   params:
-    description: "Hyunseong Park’s personal portfolio website."
+    description: Hyunseong Park’s personal portfolio website.
   menu:
     main:
-      - name: "Home"
-        url: /
-        weight: 1
-      - name: "About"
-        url: /about/
-        weight: 2
-      - name: "Projects"
-        url: /project/
-        weight: 3
-      - name: "Resume"
-        url: /files/resume.pdf
-        weight: 4
-      - name: "Contact"
-        url: /contact/
-        weight: 5
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Projects
+      url: /project/
+      weight: 3
+    - name: Resume
+      url: /uploads/resume.pdf
+      weight: 4
+    - name: Contact
+      url: /about/contact/
+      weight: 5
