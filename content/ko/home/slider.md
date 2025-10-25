@@ -1,6 +1,7 @@
 ---
 widget: slider
-headless: true
+headless: false
+active: true
 weight: 1
 design:
   autoplay: true
