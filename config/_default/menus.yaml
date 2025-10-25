@@ -12,5 +12,5 @@ main:
   url: /uploads/resume.pdf
   weight: 4
 - name: 연락하기
-  url: /about/contact/
+  url: /about/#contact
   weight: 5
