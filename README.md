@@ -1,32 +1,30 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+---
 
-The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
+## 🧑‍💼 자기소개 (요약)
+- **이름**: 박현성  
+- **소속/전공**: 전북대학교 컴퓨터공학과  
+- **관심사**: 웹 프론트엔드, 정적 사이트 자동화, 추천 시스템  
+- **소셜**: [GitHub](https://github.com/<USERNAME>)  
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+> 상세 소개와 연락처는 About 페이지 하단(연락하기) 섹션에 있습니다.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+---
 
-[Check out the latest demo](https://hugo-portfolio-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+## 🧪 프로젝트 (예시 3개)
+- **AI 캐릭터 생성기**: 인물 사진을 애니메이션 스타일로 변환  
+- **화장품 추천 시스템**: 피부톤/선호도 기반 추천  
+- **콘텐츠 추천 플랫폼**: 사용자 행동 데이터 기반 개인화 추천
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+각 프로젝트는 `content/<lang>/project/<name>/index.md`로 관리하며,  
+썸네일 이미지는 `image.filename`에 지정합니다(없으면 placeholder).
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+---
 
-## We ask you, humbly, to support this open source movement
+## 🚀 배포 (GitHub Actions)
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
-
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+- **브랜치**: `main` → **Actions 빌드** → `gh-pages` 배포  
+- Pages 설정: **Settings → Pages → Branch = `gh-pages`**  
+- 캐시 이슈 시:
+  ```bash
+  hugo mod clean && hugo mod tidy

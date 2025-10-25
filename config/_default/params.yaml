@@ -117,10 +117,8 @@ appearance:
   # 파비콘/대표 이미지 (static/ 기준 경로)
   favicon: "images/favicon.ico"
   seo:
-    image: "images/og-cover.jpg"   # 카톡/미리보기 이미지
-    twitter:
-      card: "summary_large_image"
-      site: "@your_handle"         # 있으면
+    image: "images/og-cover.jpg"
+    description: "전북대학교 박현성의 포트폴리오 사이트입니다."
 
   # 헤더
   header:
