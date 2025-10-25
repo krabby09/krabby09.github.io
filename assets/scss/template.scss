@@ -1,6 +1,14 @@
 // Starter Blog Template
 // https://hugoblox.com/hugo-themes/
 
+/* === Hover color for buttons === */
+a.btn:hover,
+button:hover {
+  filter: brightness(1.1);     /* 색상 밝게 */
+  transform: translateY(-1px); /* 살짝 위로 */
+  transition: all 0.3s ease;
+}
+
 body {
   background-color: rgb(247, 250, 252);
 }
