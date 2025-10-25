@@ -8,6 +8,7 @@ main:
     weight: 2
 
   - identifier: "project"
+    identifier: "project"
     pageRef: "project"
     weight: 3
 
@@ -19,7 +20,7 @@ main:
     url: "/about/#contact"
     weight: 5
 
-  # children (프로젝트 하위)
+  # Children under 'project'
   - identifier: "p-cartoon"
     pageRef: "project/cartoon"
     parent: "project"
