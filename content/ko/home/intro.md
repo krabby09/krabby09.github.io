@@ -16,6 +16,8 @@ author: admin
 #    video:
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
+
+draft: true
 ---
 
 👋 Hi, there! I'm **Alice**, a machine learning researcher at Netflix.
