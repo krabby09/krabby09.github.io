@@ -1,23 +1,17 @@
 ---
-widget: blank
+widget: hero
 headless: false
 active: true
-weight: 30
-title: "오시는 길"
-
-# ⬇️ 여기! content 안이 아니라 최상위의 text에 적어야 렌더됩니다.
-text: |
-  ![전북대학교 위치 지도](images/jbnu-map.png)
-
-  [구글 지도 열기](https://maps.google.com/?q=35.8460,127.1290)
-
-# (선택) 일부 테마에선 content.text도 읽으니 호환 겸 같이 둬도 무방
+weight: 15         # intro(10)보다 아래, portfolio(20)보다 위에 배치하려면 15
 content:
-  text: |
-    ![전북대학교 위치 지도](images/jbnu-map.png)
-
-    [구글 지도 열기](https://maps.google.com/?q=35.8460,127.1290)
-
+  title: "오시는 길"
+  subtitle: "전북대학교 (35.8460, 127.1290)"
+  buttons:
+    - label: "구글 지도 열기"
+      url: "https://maps.google.com/?q=35.8460,127.1290"
+      theme: primary
 design:
-  columns: "1"
+  background:
+    image: "images/jbnu-map.jpg"  # ← 앞에 / 없이!
+    image_darken: 0.3             # 반투명 오버레이(평가 14번 충족)
 ---

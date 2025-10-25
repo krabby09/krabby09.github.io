@@ -1,22 +1,17 @@
 ---
-widget: blank
+widget: hero
 headless: false
 active: true
-weight: 30
-title: "Find Me"
-
-text: |
-  테스트입니다
-  ![Map to JBNU](images/jbnu-map.png)
-
-  [Open in Google Maps](https://maps.google.com/?q=35.8460,127.1290)
-
+weight: 15
 content:
-  text: |
-    ![Map to JBNU](images/jbnu-map.png)
-
-    [Open in Google Maps](https://maps.google.com/?q=35.8460,127.1290)
-
+  title: "Find Me"
+  subtitle: "JBNU (35.8460, 127.1290)"
+  buttons:
+    - label: "Open in Google Maps"
+      url: "https://maps.google.com/?q=35.8460,127.1290"
+      theme: primary
 design:
-  columns: "1"
+  background:
+    image: "images/jbnu-map.jpg"
+    image_darken: 0.3
 ---
