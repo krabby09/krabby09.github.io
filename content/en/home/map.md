@@ -1,19 +1,14 @@
 ---
-widget: map
+widget: image
 headless: false
 active: true
 weight: 30
 title: "Find Me"
 content:
-  provider: google
-  api_key: ""
-  center:
-    latitude: 35.8460
-    longitude: 127.1290
-  zoom: 15
-  height: 400
-  markers:
-    - title: "Jeonbuk National University"
-      latitude: 35.8460
-      longitude: 127.1290
+  images:
+    - image: "images/jbnu-map.jpg"
+      caption: "[Open in Google Maps](https://maps.google.com/?q=35.8460,127.1290)"
+      alt_text: "Map to JBNU"
+design:
+  columns: "1"
 ---
