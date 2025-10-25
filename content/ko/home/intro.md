@@ -21,6 +21,7 @@ draft: true
 ---
 
 👋 안녕하세요! 전북대 컴퓨터인공지능학부생 **박현성** 입니다.
+이메일 : zkaldi9507@naver.com
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
 Check out my [resumé](/about/) and portfolio below 😍
