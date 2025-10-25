@@ -20,7 +20,7 @@ ko:
       url: /uploads/resume.pdf
       weight: 4
     - name: 연락하기
-      url: /about/contact
+      url: /about/#contact
       weight: 5
 en:
   languageCode: en-us
@@ -44,5 +44,5 @@ en:
       url: /uploads/resume.pdf
       weight: 4
     - name: Contact
-      url: /about/contact
+      url: /about/#contact
       weight: 5
