@@ -129,7 +129,7 @@ appearance:
     show_translations: true        # 지구본(언어) 아이콘
     logo:
       text: "HS Portfolio"         # 텍스트 로고
-      # image: "images/logo.svg"   # 이미지 로고 쓰려면 주석 해제 + 파일 추가
+      image: "images/sans1.png"   # 이미지 로고 쓰려면 주석 해제 + 파일 추가
 
   # 메인에서 나열할 섹션(“홈” 카드 순서 제어)
   mainSections: ["home", "project", "about"]
