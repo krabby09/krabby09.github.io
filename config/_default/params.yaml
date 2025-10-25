@@ -1,107 +1,58 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+params:
+  # 다크/라이트 자동
+  color_scheme: "auto"
 
-# Appearance
-
-appearance:
-  theme_day: custom
-  theme_night: custom
-  font: minimal
-  font_size: L
-
-# SEO
-
-marketing:
+  # 파비콘/대표 이미지 (static/ 기준 경로)
+  favicon: "images/favicon.ico"
   seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+    image: "images/og-cover.jpg"   # 카톡/미리보기 이미지
+    twitter:
+      card: "summary_large_image"
+      site: "@your_handle"         # 있으면
 
-# Site header
+  # 헤더
+  header:
+    show_search: true              # 헤더 검색 아이콘
+    show_translations: true        # 지구본(언어) 아이콘
+    logo:
+      text: "HS Portfolio"         # 텍스트 로고
+      # image: "images/logo.svg"   # 이미지 로고 쓰려면 주석 해제 + 파일 추가
 
-header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: false
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
+  # 메인에서 나열할 섹션(“홈” 카드 순서 제어)
+  mainSections: ["home", "project", "about"]
 
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+  # 버튼/색상(테마 포인트)
+  palette:
+    primary: "#4F46E5"
+    secondary: "#A5B4FC"
 
-# Localization
+  # 작성자/프로필(About 위젯과 연동되는 경우 많음)
+  author:
+    name: "박현성"
+    image: "images/profile.jpg"       # static/images/profile.jpg 업로드
+    role: "전북대학교 컴퓨터공학과"
+    bio: "웹 프론트엔드와 정적 사이트에 관심이 많습니다."
+    location: "Jeonju, Korea"
+    email: "krabby09@example.com"
+    links:
+      - icon: github
+        url: "https://github.com/krabby09"
+      # - icon: linkedin
+      #   url: "https://www.linkedin.com/in/본인"
+      # - icon: instagram
+      #   url: "https://www.instagram.com/본인"
 
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-
-# Site features
-
-features:
-  syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: ''
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
+  # 지도(필요 시)
   map:
-    provider: ''
-    api_key: ''
+    provider: ""      # "google" 등
+    api_key: ""       # 필요 시 키 입력
     zoom: 15
 
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: false
+  # (선택) Algolia 검색을 쓸 경우
+  search:
+    provider: ""      # "algolia"
+    algolia:
+      app_id: ""
+      api_key: ""
+      index_name: ""
+      show_logo: false
