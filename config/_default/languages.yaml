@@ -5,23 +5,39 @@ ko:
   weight: 1
   params:
     description: 박현성의 개인 포트폴리오 사이트입니다.
-  # menu:
-  #   main:
-  #   - name: 홈
-  #     url: /
-  #     weight: 1
-  #   - name: 자기소개
-  #     url: /about/
-  #     weight: 2
-  #   - name: 프로젝트
-  #     url: /project/
-  #     weight: 3
-  #   - name: 이력서
-  #     url: /uploads/resume.pdf
-  #     weight: 4
-  #   - name: 연락하기
-  #     url: /about/#contact
-  #     weight: 5
+  menu:
+    main:
+    - name: 홈
+      url: /
+      weight: 1
+    - name: 자기소개
+      url: /about/
+      weight: 2
+    - name: 프로젝트
+      url: /project/
+      identifier: "project"
+      weight: 3
+    - name: "AI 캐릭터"
+      url: /project/cartoon/
+      parent: "project"
+      weight: 31
+
+    - name: "화장품 추천"
+      url: /project/cosmetics/
+      parent: "project"
+      weight: 32
+
+    - name: "콘텐츠 추천"
+      url: /project/recommendation/
+      parent: "project"
+      weight: 33
+
+    - name: 이력서
+      url: /uploads/resume.pdf
+      weight: 4
+    - name: 연락하기
+      url: /about/#contact
+      weight: 5
 en:
   languageCode: en-us
   contentDir: content/en
@@ -29,20 +45,37 @@ en:
   weight: 2
   params:
     description: Hyunseong Park’s personal portfolio website.
-  # menu:
-  #   main:
-  #   - name: Home
-  #     url: /
-  #     weight: 1
-  #   - name: About
-  #     url: /about/
-  #     weight: 2
-  #   - name: Projects
-  #     url: /project/
-  #     weight: 3
-  #   - name: Resume
-  #     url: /uploads/resume.pdf
-  #     weight: 4
-  #   - name: Contact
-  #     url: /about/#contact
-  #     weight: 5
+  menu:
+    main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+    - name: Projects
+      url: /project/
+      identifier: "project"
+      weight: 3
+
+    - name: "AI Cartoon"
+      url: /project/cartoon/
+      parent: "project"
+      weight: 31
+
+    - name: "Cosmetics Recommender"
+      url: /project/cosmetics/
+      parent: "project"
+      weight: 32
+
+    - name: "Content Recommender"
+      url: /project/recommendation/
+      parent: "project"
+      weight: 33
+
+    - name: Resume
+      url: /uploads/resume.pdf
+      weight: 4
+    - name: Contact
+      url: /about/#contact
+      weight: 5
