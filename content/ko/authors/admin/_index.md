@@ -15,6 +15,6 @@ social:
   #   icon_pack: fab
   #   link: "https://www.linkedin.com/in/..."
 avatar:
-  filename: "profile.jpg"   # static/images/profile.jpg 로 두세요
+  filename: "sans1.png"   # static/images/profile.jpg 로 두세요
 ---
 안녕하세요! 박현성입니다. 프로젝트와 관심사를 공유합니다.

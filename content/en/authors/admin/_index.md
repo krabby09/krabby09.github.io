@@ -12,6 +12,6 @@ social:
     icon_pack: fab
     link: "https://github.com/krabby09"
 avatar:
-  filename: "profile.jpg"
+  filename: "sans1.png"
 ---
 Hello! I’m Hyunseong. Here are my projects and interests.
