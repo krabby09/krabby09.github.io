@@ -8,8 +8,9 @@ main:
 
 - name: 프로젝트
   url: /project/
+  identifier: "project"
   weight: 3
-  
+
 - name: "AI 캐릭터"
   url: /project/cartoon/
   parent: "project"
